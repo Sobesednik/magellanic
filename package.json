@@ -2,28 +2,40 @@
   "name": "magellanic",
   "version": "0.1.0",
   "description": "magellanic is a dream in a cloud",
-  "main": "src/index.js",
   "scripts": {
     "test": "zoroaster test/spec",
-    "test-watch": "zoroaster test/spec --watch"
+    "test-watch": "zoroaster test/spec --watch",
+    "tw": "npm run test-watch"
   },
+  "bin": "bin/magellanic",
   "files": [
-    "src/"
+    "src/Magellanic.js",
+    "bin/magellanic"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/Sobesednik/magellanic.git"
   },
   "keywords": [
-    "mnp"
+    "magellanic",
+    "test",
+    "tests",
+    "stream",
+    "cloud",
+    "zoroaster"
   ],
   "author": "Anton <anton@sobesednik.media>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Sobesednik/magellanic/issues"
   },
-  "homepage": "https://github.com/Sobesednik/magellanic#readme",
+  "homepage": "https://magellanic.io",
   "devDependencies": {
-    "zoroaster": "0.4.4"
+    "spawncommand": "1.1.0",
+    "zoroaster": "0.4.5"
+  },
+  "dependencies": {
+    "reloquent": "0.1.2",
+    "zoroaster": "0.4.5"
   }
 }

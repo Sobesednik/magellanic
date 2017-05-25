@@ -1,17 +1,24 @@
-# my-new-package
+# magellanic
 
-`my-new-package` is a new Node.js npm package.
+`magellanic` is a client to stream tests to [`magellanic`](https://magellanic.io).
 
-## `myNewPackage():void`
+## CLI: `magellanic <testSuitePath:String>`
 
-Call this function to get a result you want.
+Call `magellanic` when you want to start a new test suite stream to the cloud.
+The number of parallel connections is proportionate to the level of your consciousness.
 
-```js
-const myNewPackage = require('my-new-package')
+```bash
+magellanic test/fixtures/dir/example-test-suite.js # file will be streamed to magellanic
+```
 
-myNewPackage()
+```s
+ test/fixtures/dir/example-test-suite.js
+  ✓  should initially have slept for 100
+  ✓  should run the test in the cloud
+
+Executed 2 tests at magellanic.io
 ```
 
 ---
 
-(c) Sobesednik-Media 2017
+(c) [magellanic.io](https://magellanic.io) 2017

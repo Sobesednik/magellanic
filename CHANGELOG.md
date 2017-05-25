@@ -1,4 +1,4 @@
-## 0.1.0 (22 May)
+## 0.1.0 (25 May)
 
-- Create `my-new-package`: a package created with `mnp`
-- [repo]: `test`, `src`
+- Create `magellanic`: a client to stream tests to `magellanic.io`
+- [repo]: `test`, `src`, `README`, `CHANGELOG`, `.eslintrc`
